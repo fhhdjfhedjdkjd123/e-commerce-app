@@ -1,0 +1,11 @@
+.logo {
+    padding: 15px;
+    font-size: 95px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    background-color: #777;
+    height: 10rem;
+    color: white;
+    margin-block-start: 1px;
+    width: 100%;
+  }

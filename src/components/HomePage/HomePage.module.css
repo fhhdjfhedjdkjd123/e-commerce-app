@@ -1,0 +1,47 @@
+.container{
+    text-align:center;
+    /* margin: auto; */
+    justify-content: center;
+    display:grid;
+    display: flexs;
+    margin-top: 2rem; 
+  }
+  h2{
+    /* margin-bottom: 1rem; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+  }
+  .header {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    background-color: #777;
+    height: 12rem;
+    color: white;
+    /* margin-block-start: 1px; */
+  }
+  
+  .latestAlbum {
+    display: block;
+    border: 1px solid #56ccf2;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 200;
+    margin: auto;
+    background: inherit;
+    cursor: pointer;
+    color: white;
+    
+  }
+  
+  .playBtn {
+    cursor: pointer;
+    display: block;
+    border: 2px solid #56ccf2;
+    border-radius: 50%;
+    padding: 15px 20px;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 20px auto;
+    background: inherit;
+    color: #56ccf2;
+  }

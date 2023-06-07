@@ -1,0 +1,30 @@
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    gap: 5rem;
+  
+  }
+  NavLink{
+    margin: 30px;
+  }
+  
+  .listul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    gap: 5rem;
+  }
+  
+  .listul a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .listul a:hover,
+  .listul a:active,
+  .listul a.active{
+    text-decoration: underline;
+  }
+  

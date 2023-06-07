@@ -1,0 +1,13 @@
+.product {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .product img {
+      transition: ease-in 0.5s;
+      transform-origin: center center;
+  }
+  
+  .product a :hover {
+    transform: scale(1.1);
+  }
+  

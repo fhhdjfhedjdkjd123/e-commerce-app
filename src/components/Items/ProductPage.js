@@ -13,6 +13,7 @@ const ProductPage = (props) => {
   let Image2 = null
   let Image3 = null
 
+  
   if(params.productId === 'p1'){
     Image1 = 'https://prasadyash2411.github.io/ecom-website/img/Album%201.png'
   } else if(params.productId === 'p2'){

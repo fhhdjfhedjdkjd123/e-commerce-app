@@ -140,6 +140,7 @@ const CartProvider = (props) => {
     removeItems: removeItemFromCartHandler,
     productDetails: productObj,
     //addproductObj: addtoproductObj,
+    
     token: "",
     email: email,
     isLoggedIn: userLoggedIndetails,

@@ -5,6 +5,7 @@ import RootLayout from './components/RootLayout/RootLayout';
 import HomePage from './components/HomePage/HomePage';
 import ListItems from './components/Items/ListItems';
 import ProductPage from './components/Items/ProductPage';
+import AboutPage from './components/AboutPage/AboutPage';
 
 const App=()=>{
   return (
@@ -14,6 +15,7 @@ const App=()=>{
           <Route path="/home" exact element={<HomePage/>}/>
           <Route path="/store" exact element={<ListItems/>}/>
           <Route path="/store/:productId" element={<ProductPage/>}/>
+          <Route path="/about" element={<AboutPage/>}/>
        </Routes>
       </RootLayout>
 

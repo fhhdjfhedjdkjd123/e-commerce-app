@@ -24,6 +24,7 @@ const HomePage = () => {
         </tr>
       </tbody>
     );
+
   });
 
   return (
@@ -35,6 +36,7 @@ const HomePage = () => {
       <Container className={classes.container}>
         <h2>TOUR</h2>
         <Table>
+          
           {tourArray}
         </Table>
       </Container>

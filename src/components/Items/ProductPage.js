@@ -78,19 +78,19 @@ const ProductPage = (props) => {
       <Row >
         <Col lg={4} sm={8}>
           <Card className="text-center border-0">
-            <Card.Title className="mt-3">akshat</Card.Title>
-            <Card.Body> This is so far best product</Card.Body>
+            <Card.Title className="mt-3">Anil</Card.Title>
+            <Card.Body> This is the best product...</Card.Body>
           </Card>
         </Col>
         <Col lg={4} sm={8}>
           <Card className="text-center border-0">
-            <Card.Title className="mt-3">ishika</Card.Title>
+            <Card.Title className="mt-3">Ramadevi</Card.Title>
             <Card.Body> I'll rate this product a 5 Star</Card.Body>
           </Card>
         </Col>
         <Col lg={4} sm={8}>
           <Card className="text-center border-0">
-            <Card.Title className="mt-3">jethalal</Card.Title>
+            <Card.Title className="mt-3">honey</Card.Title>
             <Card.Body> Great product </Card.Body>
           </Card>
         </Col>

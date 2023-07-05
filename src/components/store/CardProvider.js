@@ -13,7 +13,7 @@ const CartProvider = (props) => {
   useEffect(() => {
     const asyncFun = async () => {
       let response = await fetch(
-        `https://crudcrud.com/api/151562932f8a444c861f42c324ce3b86/cart${cartContext.email}`
+        `https://crudcrud.com/api/9130541401a44a5ab8882593d895487d/cart${cartContext.email}`
       );
       let data = await response.json();
       console.log(data);
@@ -31,7 +31,7 @@ const CartProvider = (props) => {
     if (existingItem === -1) {
       // If there is no existing item it will return -1
       let response = await fetch(
-        `https://crudcrud.com/api/151562932f8a444c861f42c324ce3b86/cart${cartContext.email}`,
+        `https://crudcrud.com/api/9130541401a44a5ab8882593d895487d/cart${cartContext.email}`,
         {
           method: "POST",
           body: JSON.stringify(item),
@@ -52,7 +52,7 @@ const CartProvider = (props) => {
       console.log(updatedItem);
 
       let response = await fetch(
-        `https://crudcrud.com/api/151562932f8a444c861f42c324ce3b86/cart${cartContext.email}/${allItems[existingItem]._id}`,
+        `https://crudcrud.com/api/9130541401a44a5ab8882593d895487d/cart${cartContext.email}/${allItems[existingItem]._id}`,
 
         {
           method: "PUT",
@@ -77,7 +77,7 @@ const CartProvider = (props) => {
     console.log(item._id);
     if (item.quantity <= 1) {
       const response = await fetch(
-        `https://crudcrud.com/api/151562932f8a444c861f42c324ce3b86/cart${cartContext.email}/${item._id}`,
+        `https://crudcrud.com/api/9130541401a44a5ab8882593d895487d/cart${cartContext.email}/${item._id}`,
         { method: "DELETE" }
       );
       const updatedItems = items.filter((itm) => {
@@ -88,7 +88,7 @@ const CartProvider = (props) => {
     } else {
       item.quantity = item.quantity - 1;
       let response = await fetch(
-        `https://crudcrud.com/api/151562932f8a444c861f42c324ce3b86/cart${cartContext.email}/${item._id}`,
+        `https://crudcrud.com/api/9130541401a44a5ab8882593d895487d/cart${cartContext.email}/${item._id}`,
         {
           method: "PUT",
           body: JSON.stringify({
